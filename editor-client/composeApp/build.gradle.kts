@@ -21,6 +21,11 @@ kotlin {
     }
     
     sourceSets {
+        named("jsMain") {
+            dependencies {
+                implementation(npm("monaco-editor", "0.45.0"))
+            }
+        }
         
         commonMain.dependencies {
             implementation(compose.runtime)
