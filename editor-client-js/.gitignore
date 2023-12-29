@@ -40,3 +40,5 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+**/monaco-editor-0.45.0.package
